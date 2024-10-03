@@ -26,3 +26,12 @@ function Person(name)
 const p1=new Person('mohana');
 const p2=new Person('priya')
 console.log(p1.name, p2.name);
+
+//default binding will rely on global scope
+sayMyName()
+
+//prority
+//new binding
+//explict binding
+//implict binding
+//default binding
