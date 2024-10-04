@@ -16,3 +16,4 @@ fn();
 }
 const betterFunction = debounce(getData, 2000);
 betterFunction();
+betterFunction();
