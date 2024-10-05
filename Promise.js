@@ -16,11 +16,11 @@ proceedToPayment(orderId, function(){
 // })
 createOrder(cart).
 then(function(orderId){
-    proceedToPayment(orderId);
+   return proceedToPayment(orderId);
 }).
 then(function(paymentInfo){
-    showOrderSummary(paymentInfo);
+   return showOrderSummary(paymentInfo);
 })
 .then(function(){
-    updateWalletBalance();
+   return updateWalletBalance();
 })

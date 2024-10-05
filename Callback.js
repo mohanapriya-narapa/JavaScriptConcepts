@@ -14,7 +14,7 @@ callback(name);
 // higherOrderFunction(greet);
 
 //Async callbacks
-//instaed of exceuting call back imeediately it takes seome to execute it
+//instaed of exceuting call back imeediately it takes seome to execute it like after some event has occured or some data was fetched
 function greet(name)
 {
     console.log("welcome" +" " +name);
