@@ -11,4 +11,12 @@ function higherOrderFunction(callback)
 const name ="mohana";
 callback(name);
 }
-higherOrderFunction(greet);
+// higherOrderFunction(greet);
+
+//Async callbacks
+//instaed of exceuting call back imeediately it takes seome to execute it
+function greet(name)
+{
+    console.log("welcome" +" " +name);
+}
+setTimeout(greet, 2000, "mohanaa")
