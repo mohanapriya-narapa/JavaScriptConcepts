@@ -17,3 +17,5 @@ fn();
 const betterFunction = debounce(getData, 2000);
 betterFunction();
 betterFunction();
+
+//if difference between 2 key strokes is 300 ms then make a call
